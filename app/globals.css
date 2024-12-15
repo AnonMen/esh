@@ -15,7 +15,12 @@
 }
 
 body {
-  color: var(--foreground);
+  color: #1a1a1a;
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+.nav-link {
+  @apply block py-2 px-4 text-lg font-medium text-gray-900 hover:bg-green-700 hover:text-white rounded transition-all duration-200;
 }
